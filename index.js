@@ -12,8 +12,11 @@ import { registerValidation, loginValidation, postCreateValidation } from './val
 import { handleValidationErrors, checkAuth } from './utils/index.js';
 import { UserController, PostController } from './controllers/index.js';
 
+
+const connectionString = process.env.MONGODB_URI || 'mongodb+srv://tufanovgeidar:alanya2030@cluster0.jhtmq.mongodb.net/myDatabase?retryWrites=true&w=majority'
+
 mongoose
-  .connect('mongodb+srv://tufanovgeidar:alanya2030@cluster0.jhtmq.mongodb.net/myDatabase?retryWrites=true&w=majority')
+  .connect(connectionString)
   .then(() => console.log('Successfully connected to MongoDB'))
   .catch((err) => console.log('Connection failed:', err.message));
 
