@@ -19,4 +19,3 @@ export const postCreateValidation = [
   body('tags', 'Неверный формат тэгов (укажите массив)').optional().isArray(),
   body('imageUrl', 'Неверная ссылка на изоброжение').optional().isString(),
 ];
-//dd
