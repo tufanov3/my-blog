@@ -32,7 +32,7 @@ export const TagsPosts = () => {
             key={post._id}
             id={post._id}
             title={post.title}
-            imageUrl={post.imageUrl ? `http://localhost:4444${post.imageUrl}` : ""}
+            imageUrl={post.imageUrl ? `${process.env.REACT_APP_API_URL}${post.imageUrl}` : ""}
             user={post.user}
             createdAt={new Date(post.createdAt).toLocaleDateString()}
             viewsCount={post.viewsCount}
