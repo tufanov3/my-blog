@@ -12,6 +12,7 @@ export const registerValidation = [
   body('avatarUrl', 'Неверная ссылка на аватарку').optional().isURL(),
 ];
 
+
 export const postCreateValidation = [
   body('title', 'Введите заголовок статьи').isString({ min: 3 }),
   body('text', 'Введите текст статьи').isString({ min: 3 }),
