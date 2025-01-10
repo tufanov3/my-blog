@@ -8,7 +8,7 @@ import { Navigate } from "react-router-dom";
 import { selectIsAuth } from '../../redux/slices/auth'
 import { useForm } from 'react-hook-form'
 
-import styles from "./Login.module.scss";
+import styles from "./login.module.scss";
 import { fetchAuth } from "../../redux/slices/auth";
 
 export const Login = () => {

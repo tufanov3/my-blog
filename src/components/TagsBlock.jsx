@@ -9,7 +9,7 @@ import ListItemText from "@mui/material/ListItemText";
 import Skeleton from "@mui/material/Skeleton";
 import { Link } from "react-router-dom";
 
-import { SideBlock } from "./SideBlock";
+import { SideBlock } from "./sideBlock";
 
 export const TagsBlock = ({ items, isLoading = true }) => {
   const uniqueItems = [...new Set(items)];

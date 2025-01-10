@@ -8,8 +8,7 @@ import { fetchRegister, selectIsAuth } from '../../redux/slices/auth';
 import { useForm } from 'react-hook-form';
 import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
-
-import styles from './Login.module.scss';
+import styles from './registration.module.scss';
 
 export const Registration = () => {
   const isAuth = useSelector(selectIsAuth)

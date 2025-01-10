@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import styles from "./AddComment.module.scss";
+import styles from "./addComment.scss";
 import TextField from "@mui/material/TextField";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
+
 
 
 export const AddComment = ({ onAddComment, userName }) => {

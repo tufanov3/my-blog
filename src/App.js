@@ -1,11 +1,10 @@
 import Container from "@mui/material/Container";
 import { Routes, Route } from "react-router-dom";
-
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAuthMe, selectIsAuth } from "./redux/slices/auth";
 import { Header } from "./components";
 import { TagsPosts } from './components/tagsPosts'
-import { Home, FullPost, Registration, AddPost, Login } from "./pages";
+import { Home, AddPost, Registration, Login, FullPost } from './pages'
 import { useEffect } from "react";
 
 function App() {

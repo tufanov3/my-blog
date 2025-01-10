@@ -7,7 +7,7 @@ import { Navigate, useNavigate, useParams } from 'react-router-dom';
 import axios from '../../axios'
 
 import 'easymde/dist/easymde.min.css';
-import styles from './AddPost.module.scss';
+import styles from './addPost.module.scss';
 import { useSelector } from 'react-redux';
 import { selectIsAuth } from '../../redux/slices/auth';
 

@@ -1,0 +1,5 @@
+export * from './AddPost/index.jsx'
+export * from './Login/index.jsx'
+export * from './Registration/index.jsx'
+export * from './Home.jsx'
+export * from './FullPost.jsx'
