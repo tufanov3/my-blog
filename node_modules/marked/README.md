@@ -37,9 +37,18 @@ Also read about:
 
 ## Installation
 
-**CLI:** `npm install -g marked`
+**CLI:** 
 
-**In-browser:** `npm install marked`
+```sh 
+npm install -g marked
+```
+
+**In-browser:** 
+
+```sh
+npm install marked
+npm install @types/marked # For TypeScript projects
+```
 
 ## Usage
 
