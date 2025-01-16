@@ -3,11 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-transform-private-methods": "^7.25.9",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
+    "@eslint/config-array": "^0.19.1",
+    "@eslint/object-schema": "^2.1.5",
+    "@jridgewell/sourcemap-codec": "^1.5.0",
     "@mui/icons-material": "^5.8.0",
     "@mui/material": "^5.8.0",
     "@reduxjs/toolkit": "^1.8.2",
+    "@rollup/plugin-terser": "^0.4.4",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
@@ -53,6 +58,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "rimraf": "^6.0.1",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
   }
